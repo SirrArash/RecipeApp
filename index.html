@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./script.js" defer></script>
+    <script
+      src="https://kit.fontawesome.com/a791dccb9c.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Recipe App | Arash Ebrahimzadeh</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header-container">
+        <div class="hamburger-container">
+          <span id="l1"></span>
+          <span id="l2"></span>
+          <span id="l3"></span>
+        </div>
+        <a href="./index.html"
+          ><img class="logoImage" src="./Images/logo.png" alt="top chef logo"
+        /></a>
+        <div class="search">
+          <div class="icon"></div>
+          <div class="input">
+            <input
+              type="text"
+              placeholder="Search the meal"
+              id="mysearch"
+              maxlength="24"
+            />
+          </div>
+          <span class="clear"></span>
+        </div>
+      </div>
+      <div class="fav-container">
+        <h3>Favorite meals</h3>
+        <ul class="fav-meals" id="fav-meals"></ul>
+      </div>
+      <div class="meals-list" id="meals"></div>
+    </div>
+    <div class="popup-container hidden" id="meal-popup">
+      <div class="popup" id="meal-info">
+
+
+
+        <div class="meal-info" id="meal-info">
+
+        </div>
+
+      </div>
+    </div>
+  </body>
+</html>
